@@ -2,7 +2,7 @@
 Crear calculadora que haga suma, resta, multiplicacion y division.
 Debe pedir 2 numeros.
 Al finalizar debe preguntar si se requiere de otra operacion.
-Debe contener excepciones para todos los casos de ingresos errores por parte de usuarios.
+Debe contener excepciones para todos los casos de ingresos erroneos por parte de usuarios.
 '''
 def operacion(eleccion, primer_numero, segundo_numero):
 	if eleccion == 1:
@@ -20,9 +20,9 @@ def operacion(eleccion, primer_numero, segundo_numero):
 	else:
 		print ("Operacion incorrecta")
 
-print ("\n======================================")
-print ("BIENVENIDOS A LA CALCULADORA BY PYTHON")
-print ("======================================\n")
+print ("\n=========================================")
+print ("BIENVENIDOS A LA CALCULADORA BY NOUVELLIE")
+print ("=========================================\n")
 
 continuar = "si"
 
