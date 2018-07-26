@@ -58,6 +58,7 @@ while True:
 	print ("4 - Ver contacto")
 	print ("5 - Ver todos los contactos")
 	print ("6 - Salir\n")
+	
 	try:
 		operacion = int(input("Ingrese la operacion deseada: "))
 		print ("\n")
@@ -76,7 +77,6 @@ while True:
 			ver_contacto()
 		elif operacion == 5:
 			ver_todos_contactos()
-			
 		elif operacion == 6:
 			break
 		else:
